@@ -1,0 +1,20 @@
+id: ari:cloud:compass:a10ea91e-27d4-4f44-b66d-bd62492de975:component/b339cd9b-4f38-471a-bded-630454b12269/07462572-f281-4453-b14a-a2c2982a8aec
+name: test2
+type: SERVICE
+description: null
+labels:
+  - github-import
+  - language:javascript
+links:
+  - type: REPOSITORY
+    name: Source Code
+    url: https://github.comtest2
+relationships: []
+dataManager: null
+eventSources: []
+externalAliases:
+  - externalSource: github-importer
+    externalAliasId: '440179759'
+fields:
+  compass:tier:
+    - '4'
