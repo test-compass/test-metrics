@@ -15,4 +15,5 @@ jobs:
     environment: production
     concurrency: production
     steps:
+      - run: sleep 1m
       - run: echo "DEPLOYMENT"
